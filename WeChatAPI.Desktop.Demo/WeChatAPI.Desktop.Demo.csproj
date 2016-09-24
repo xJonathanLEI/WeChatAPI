@@ -44,6 +44,10 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WeChatAPI.Desktop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WeChatAPI\WeChatAPI.Desktop\bin\Debug\WeChatAPI.Desktop.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainPage.cs">
@@ -87,12 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WeChatAPI.Desktop\WeChatAPI.Desktop.csproj">
-      <Project>{86200c69-790c-44cb-ae44-6144c7ff34d0}</Project>
-      <Name>WeChatAPI.Desktop</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

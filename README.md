@@ -1,5 +1,5 @@
 # WeChatAPI
-WeChatAPI is an 3rd-party API written in C# for WeChat, the most popular IM app in China.
+WeChatAPI is a 3rd-party API written in C# for WeChat, the most popular IM app in China.
 
 It has been decided that we will close source. Nevertheless, the team will update the GitHub repository with the latest demo. Also, the wiki will be kept up-to-date.
 
